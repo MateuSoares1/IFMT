@@ -1,0 +1,217 @@
+.home{
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-color: white;
+    height: 600px;
+}
+
+.hgrup{
+    background-color: white !important;
+}
+.Banner{
+   
+    background-image: url("img/lambariFalso.jpg");    
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 400px;
+}
+
+.topo{
+   
+    color: rgba(0, 0, 0, 0.281);
+    text-align: center;
+
+}
+
+.rodape{
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
+    bottom: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   /* background-color:blanchedalmond;  */
+    border: 1px solid rgba(58, 58, 58, 0.062);
+    
+  }
+  
+ nav >ul> li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+    .body-sobre{
+        margin-top: 100px;
+        text-align: center;
+        height: 400px;
+    }
+
+    .body-index-sobre{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 16px;
+        height: 300px;
+       
+
+    }
+    .body-index-receitas{
+        text-align: center;
+        font-size: 16px;
+        height: 800px;
+        border-top: 0.5px solid rgba(20, 20, 20, 0.274);      
+    }
+    .body-index-receitas > h1{
+      font-size: 5em;   
+    }
+    .body-index-contato{
+        text-align: center;
+        font-size: 16px;
+        height: 200px;
+        border-top: 0.5px solid rgba(20, 20, 20, 0.274);           
+}
+.foto1{
+    position: relative;
+    margin-right: 100px;    
+    margin-left: 100px;
+    height: 400px;
+    width: 300px;
+    background-image: url("img/cozidao.jpg");
+    background-repeat: no-repeat;
+}
+.foto2{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 400px;
+    width: 300px;
+    background-image: url("img/peixao2.jpg");
+    background-repeat: no-repeat;
+}
+.foto3{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 400px;
+    width: 300px;
+    background-image: url("img/peixao.jpg");
+    background-repeat: no-repeat;
+}
+
+.galeria{   
+    justify-items:  center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.capa {
+    display: none;
+  }
+  
+  .foto1:hover .capa {
+    display: block;
+  }
+
+  .foto2:hover .capa {
+    display: block;
+  }
+  .foto3:hover .capa {
+    display: block;
+  }
+  
+  
+  
+  .capa {
+    background: rgba(209, 209, 209, 0.603);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .contato{
+    justify-items:  center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+ a{
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+ }
+a.fill-div {
+   
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.pacuReceita{
+  position: relative;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 400px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-image: url("img/cozidao.jpg");
+  float: left;
+}
+.fontOl{
+  font-size: 2em;
+}
+
+.center{
+  text-align: center;
+}
+
+
+/*
+
+
+
+*{ margin : 0 ; padding: 0}
+
+body{
+    font: 18px/1.4 arial, sans-serif;
+}
+
+hgroup a{color: rgb(117, 114, 114); text-decoration: none;}
+
+h1 ~ h2 {
+    font-size: 27px;
+    margin: 14px 0 14px 0;
+    color: #c90;    
+}
+
+nav > ul{ margin-left: 50px}
+nav > ul > li:first-child >a{ color: #c60;
+text-decoration: none}
+nav > ul > li:first-child >a:hover{ color: #555;
+    text-decoration: underline}
+    nav > ul > li:last-child >{ font-size: 26px;
+        list-style-type:square;
+    }
+    
+nav > ul > li:nth-child(3) {background: #ccc}    
+
+*/
